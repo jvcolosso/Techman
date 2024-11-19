@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentários Modal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="comentario.css">
+</head>
+
+<body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <header>
+                <img src="../assets/techman.png" alt="Logo">
+            </header>
+
+            <main>
+                <h1>Comentários</h1>
+                <div id="comentarios"></div>
+                <button class="btn-comment" id="openCommentModal">Adicionar Comentário</button>
+            </main>
+
+            <div id="addCommentModal" class="modal">
+                <div class="modal-content">
+                    <span id="closeCommentModal" class="close">&times;</span>
+                    <h2>Adicionar Comentário</h2>
+                    <form id="comentarioForm">
+                        <textarea id="comentarioInput" name="comentario" placeholder="Digite seu comentário"
+                            required></textarea>
+                        <button class="btn-modal-comment" type="submit">Adicionar Comentário</button>
+                    </form>
+                </div>
+            </div>
+
+            <div id="update" class="modal">
+                <div class="modal-content">
+                    <span id="closeModalUpdate" class="close">&times;</span>
+                    <h2>Atualizar Comentário</h2>
+                    <form id="updateForm">
+                        <textarea id="updateInput" name="update" placeholder="Atualize seu comentário"
+                            required></textarea>
+                        <button type="button" class="btn-modal-comment" onclick="editComentario()">Atualizar
+                            Comentário</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

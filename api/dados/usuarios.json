@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "senha": "111111",
+      "perfilId": 1
+    },
+    {
+      "id": 2,
+      "senha": "212121",
+      "perfilId": 2
+    },
+    {
+      "id": 3,
+      "senha": "414141",
+      "perfilId": 4
+    },
+    {
+      "id": 4,
+      "senha": "313131",
+      "perfilId": 3
+    }
+  ]
+  

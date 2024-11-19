@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "perfil": "Comum"
+    },
+    {
+      "id": 2,
+      "perfil": "Administrador"
+    },
+    {
+      "id": 3,
+      "perfil": "Tecnico"
+    },
+    {
+      "id": 4,
+      "perfil": "Gerente"
+    }
+  ]
+  
